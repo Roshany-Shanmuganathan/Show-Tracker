@@ -23,7 +23,9 @@ input [type="text"]{
 }
 .alphabet-btn{
     border: none;
+    background-color: transparent;
 }
 .genre-btn{
     border: none;
+    background-color: ;
 }
