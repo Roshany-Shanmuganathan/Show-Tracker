@@ -1,0 +1,60 @@
+.login-container{
+    margin: auto;
+    margin-top: 50px;
+    /* border-radius: 5px; */
+    box-shadow: 0px 0px 0px 2px  rgba(208, 204, 204, 0.675);
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+}
+input[type=email], input[type=password] ,input[type="text"] {
+  width: 90%;
+padding: 10px;
+
+  margin: 5px 0 22px 0;
+  /* display: inline-block; */
+  /* border: none; */
+  /* background: #f1f1f1; */
+}
+.btn-login{
+width: 90%;
+padding: 10px;
+ margin: 5px 0 20px 0;
+ border: none;
+ background-color: #6ECA96;
+}
+
+.btn-fb{
+width: 90%;
+padding: 10px;
+ margin-bottom: 20px ;
+ border: none;
+ background-color: #3B5998;
+}
+.btn-google{
+width: 90%;
+padding: 10px;
+ /* margin: 0px 0 0px 0; */
+ border: none;
+ background-color: #DD4B39;
+}
+.divider {
+  /* border-top: 1px solid #dee2e6; Matches Bootstrap's default hr color */ 
+  /* position: absolute; */
+  /* margin: 1rem 0;*/
+}
+
+.divider-content-center {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #fff; Match your page's background */
+  /* padding: 0 0.5rem; */
+  /* color: black Matches Bootstrap's text-secondary color */
+}
+a{
+    text-decoration: none;
+}

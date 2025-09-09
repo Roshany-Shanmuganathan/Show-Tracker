@@ -1,0 +1,23 @@
+body{
+    background-color: #E0E3E8;
+}
+    .card-img-top
+ {
+    width: 200px;
+    height: 400px;
+}
+.card-group{
+    width: 900px;
+    gap: 10px;
+}
+.show-grid{
+    display: grid;
+}
+.show-bar{
+    display: grid;
+    justify-content: space-between;
+}
+input [type="text"]{
+    border: none;
+    width: 20px;
+}
