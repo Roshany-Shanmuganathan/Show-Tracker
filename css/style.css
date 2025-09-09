@@ -21,3 +21,9 @@ input [type="text"]{
     border: none;
     width: 20px;
 }
+.alphabet-btn{
+    border: none;
+}
+.genre-btn{
+    border: none;
+}
