@@ -34,24 +34,27 @@ body{
  .alphabet-btn{
     border: none;
     background-color: transparent;
+    margin-top: 30px;
    
 }
 .alphabet-buttons{
 text-align: center;
-margin-top: ;
+
+
 }
 .genre-btn{
     background-color:#E0E3E8 ;
     border: none;
-    border-radius: 3px;
-    padding: 1px;
+    border-radius: 2px;
+    padding: 1px 6px ;
+    margin-bottom: 4px;
 }
 .genre-btn:hover{
            background-color: rgb(174, 175, 176);
 }
 .genre-buttons{
       /* text-align: center; */
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       margin: 20px 180px 0px 180px;
      
 }
@@ -66,12 +69,15 @@ margin-top: ;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
+      border-bottom: 1px solid;
 }
 .show-area{
     width: 65%;
     background-color: rgb(255, 255, 255);
     margin: 50px auto;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
+  
+   
 }
 
 .searchbar{
