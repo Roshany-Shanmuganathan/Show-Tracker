@@ -99,6 +99,7 @@ input [type="text"]{
     width: 20px;
 }
 
+
 .card{
     text-align: center;
 }
@@ -131,3 +132,4 @@ footer{
     background-color: aliceblue;
     height: 50px;
 }
+
