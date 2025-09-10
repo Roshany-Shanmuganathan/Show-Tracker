@@ -22,6 +22,7 @@ body{
     background-color: #FFE939;
     margin-left: 0px 0px 0px 0px;
     padding: 10px;
+    margin-left: 0px;
 }
 .btn-nav{
     
@@ -132,4 +133,5 @@ footer{
     background-color: aliceblue;
     height: 50px;
 }
+
 

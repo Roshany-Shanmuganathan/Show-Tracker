@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Page</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/detail.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light 
+     ">
         <div class="container-fluid">
-            <p class="navbar-brand">  Show<b>Tracker</b></p>
+            <a class="navbar-brand" href="#">Show<b>Tracker</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,6 +38,28 @@
             </div>
         </div>
     </nav>
+    <!-- end nav -->
+    <!-- detail page-01 -->
+    <div class="card mb-3" style="max-width: 1000px;" id="detail-card">
+        <div class="row g-0">
+            <div class="col-md-3 d-grid " id="detail">
+                <img src="./assets/images-01.jpeg" class="img-fluid rounded-start ps-3" alt="...">
+                <button class="btn btn-primary ">Login to subscribe</button>
+            </div>
+            <div class="col-md-8" >
+                <div class="card-body">
+                    <h5 class="card-title">Games Of Thrones</h5>
+                    <p class="card-text"><b>Sunday <u>9:00 PM</u> on HBO</b></p>
+                    <p class="card-text"><small class="text-muted">Seven noble families fight for control of the
+                            mythical land of Westeros. Friction between the houses leads to full-scale war. All while a
+                            very ancient evil awakens in the farthest north. Amidst the war, a neglected military order
+                            of misfits, the Night's Watch, is all that stands between the realms of men and the icy
+                            horrors beyond.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end detail page-01 -->
     <script src="js/detail.js"></script>
 </body>
 
