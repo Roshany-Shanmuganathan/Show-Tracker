@@ -1,5 +1,9 @@
 body {
   background-color: #e0e3e8;
+  
+}
+
+.navbar .container-fluid {
   padding: 0;
 }
 

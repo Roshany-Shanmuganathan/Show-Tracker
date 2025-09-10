@@ -1,9 +1,15 @@
 .add-show-form {
-    box-shadow: 0px 0px 5px 1px#828386;
-    width: 60%;
+     box-shadow: 0px 0px 16px 2px #82838673;
+    /* width: 60%; */
     background-color: white;
-    margin: 10px auto;
+    margin: 25px auto;
     font-family: sans-serif;
+    padding: 0px;
+    
+    
+}
+.add-show-form form {
+    padding: 20px;
 }
 
 .add-show-form input[type="text"] {
@@ -17,7 +23,7 @@
     margin-left: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #accced;
+    background-color: #7ab1e9;
     color: white;
     cursor: pointer;
     margin-bottom: 5px;
@@ -30,8 +36,9 @@
 .tv-show {
     background-color: #F6F6F6;
     height: 40px;
-    padding: 5px;
+    padding: 10px 30px;
     font-weight: bold;
+    width: 100%;
 }
 
 .add-show-form label {
