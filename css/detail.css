@@ -12,12 +12,14 @@
     margin-top: 5px;
     margin-left: 10px;
     border-radius: 0px;
-    width: 100%;
+    width: calc(100% - 10px);
 
 }
 
 #detail-img {
     margin-left: 10px;
+   width: calc(100% - 10px);
+   border-radius: 5px;
 }
 .next-show{
     background-color: #E5F7FD;
@@ -25,4 +27,7 @@
     margin: 30px auto;
     width: 60%;
     box-shadow:0px 0px 5px 1px#c9dee6 ;
+}
+.card-title{
+    font-weight: ;
 }
