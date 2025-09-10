@@ -1,31 +1,135 @@
 body{
     background-color: #E0E3E8;
 }
-    .card-img-top
- {
-    width: 200px;
-    height: 400px;
+/* start nav style */
+.navbar{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.262);
+    font-size: 20px;
+    background-color: white;
+    height: 50px;
+   
 }
+.nav-item:hover{
+          background-color: #F7F7F7;
+          width: 70px;
+          outline: dotted;
+        
+}
+.container-fluid{
+    background-color: #FFFFFF;
+}
+.navbar-brand{
+    background-color: #FFE939;
+    margin-left: 0px 0px 0px 0px;
+    padding: 10px;
+}
+.btn-nav{
+    
+    border: none;
+    background-color: transparent;
+}
+
+ /* end nav style */
+ /* start filter buttons style */
+ .alphabet-btn{
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+   
+}
+.alphabet-buttons{
+text-align: center;
+
+
+}
+.genre-btn{
+    background-color:#E0E3E8 ;
+    border: none;
+    border-radius: 2px;
+    padding: 1px 6px ;
+    margin-bottom: 4px;
+}
+.genre-btn:hover{
+           background-color: rgb(174, 175, 176);
+}
+.genre-buttons{
+      /* text-align: center; */
+      /* flex-wrap: wrap; */
+      margin: 20px 180px 0px 180px;
+     
+}
+ /* end filter buttons style */
+
+
+
+
+/*start show area */
+.show-bar{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+      border-bottom: 1px solid;
+}
+.show-area{
+    width: 65%;
+    background-color: rgb(255, 255, 255);
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.262);
+  
+   
+}
+
+.searchbar{
+      border: none;
+      background-color: transparent;
+
+}
+/* end show area */
+/* card style */
 .card-group{
     width: 900px;
     gap: 10px;
 }
-.show-grid{
-    display: grid;
-}
-.show-bar{
-    display: grid;
-    justify-content: space-between;
+.card {
+    border: none;
 }
 input [type="text"]{
     border: none;
     width: 20px;
 }
-.alphabet-btn{
-    border: none;
-    background-color: transparent;
+
+
+.card{
+    text-align: center;
 }
-.genre-btn{
-    border: none;
-    background-color: ;
+.card-img-top{
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
 }
+.show-container{
+    background-color: #F4F6F8;
+    height: 150px;
+}
+
+.card-container{
+    background-color: white;
+    margin:0 0 0 20px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+#group-02,#group-03{
+margin-top: 10px;
+}
+.section-title{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+footer{
+    background-color: aliceblue;
+    height: 50px;
+}
+
