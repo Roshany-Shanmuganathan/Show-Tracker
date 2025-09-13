@@ -56,7 +56,7 @@
 }
 
 .searchbar:focus {
-  border: none; /* removes border */
+  border: none;
   outline: none;
 }
 

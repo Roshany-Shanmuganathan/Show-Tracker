@@ -12,6 +12,7 @@
 input[type=email], input[type=password] {
   width: 90%;
 padding: 10px;
+padding-left: 30px;
 
   margin: 5px 0 22px 0;
  
@@ -46,5 +47,43 @@ padding: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+div.relative {
+  position: relative;
+ 
+} 
+
+div.absolute {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  transform:rotate(270deg);
+
+}
+div.absolute-email{
+  position: absolute;
+  top: 18px;
+  left: 25px;
+
+
+}
+.relative-fb{
+  position: relative;
+}
+.absolute-fb{
+position: absolute;
+  top: 18px;
+  left: 25px;
+}
+.relative-google{
+position: relative;
+}
+.absolute-google{
+  position: absolute;
+  top: 18px;
+  left: 25px;
+}
+img{
+  width: 20px;
 }
 

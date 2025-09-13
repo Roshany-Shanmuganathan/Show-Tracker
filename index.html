@@ -58,61 +58,99 @@
 
     <div class="show-container">
       <!-- start alphabet buttons -->
-      <div class="alphabet-buttons">
-        <button class="alphabet-btn">0-9</button>
-        <button class="alphabet-btn">A</button>
-        <button class="alphabet-btn">B</button>
-        <button class="alphabet-btn">C</button>
-        <button class="alphabet-btn">D</button>
-        <button class="alphabet-btn">E</button>
-        <button class="alphabet-btn">F</button>
-        <button class="alphabet-btn">G</button>
-        <button class="alphabet-btn">H</button>
-        <button class="alphabet-btn">I</button>
-        <button class="alphabet-btn">J</button>
-        <button class="alphabet-btn">K</button>
-        <button class="alphabet-btn">L</button>
-        <button class="alphabet-btn">M</button>
-        <button class="alphabet-btn">N</button>
-        <button class="alphabet-btn">O</button>
-        <button class="alphabet-btn">P</button>
-        <button class="alphabet-btn">Q</button>
-        <button class="alphabet-btn">R</button>
-        <button class="alphabet-btn">S</button>
-        <button class="alphabet-btn">T</button>
-        <button class="alphabet-btn">U</button>
-        <button class="alphabet-btn">V</button>
-        <button class="alphabet-btn">W</button>
-        <button class="alphabet-btn">X</button>
-        <button class="alphabet-btn">Y</button>
-        <button class="alphabet-btn">Z</button>
+      <div class="alphabet-buttons" id="alphabet">
+        <button onclick="filterItem('0-9')" class="alphabet-btn">0-9</button>
+        <button onclick="filterItem('A')" class="alphabet-btn">A</button>
+        <button onclick="filterItem('B')" class="alphabet-btn">B</button>
+        <button onclick="filterItem('C')" class="alphabet-btn">C</button>
+        <button onclick="filterItem('D')" class="alphabet-btn">D</button>
+        <button onclick="filterItem('E')" class="alphabet-btn">E</button>
+        <button onclick="filterItem('F')" class="alphabet-btn">F</button>
+        <button onclick="filterItem('G')" class="alphabet-btn">G</button>
+        <button onclick="filterItem('H')" class="alphabet-btn">H</button>
+        <button onclick="filterItem('I')" class="alphabet-btn">I</button>
+        <button onclick="filterItem('J')" class="alphabet-btn">J</button>
+        <button onclick="filterItem('K')" class="alphabet-btn">K</button>
+        <button onclick="filterItem('L')" class="alphabet-btn">L</button>
+        <button onclick="filterItem('M')" class="alphabet-btn">M</button>
+        <button onclick="filterItem('N')" class="alphabet-btn">N</button>
+        <button onclick="filterItem('O')" class="alphabet-btn">O</button>
+        <button onclick="filterItem('P')" class="alphabet-btn">P</button>
+        <button onclick="filterItem('Q')" class="alphabet-btn">Q</button>
+        <button onclick="filterItem('R')" class="alphabet-btn">R</button>
+        <button onclick="filterItem('S')" class="alphabet-btn">S</button>
+        <button onclick="filterItem('T')" class="alphabet-btn">T</button>
+        <button onclick="filterItem('U')" class="alphabet-btn">U</button>
+        <button onclick="filterItem('V')" class="alphabet-btn">V</button>
+        <button onclick="filterItem('W')" class="alphabet-btn">W</button>
+        <button onclick="filterItem('X')" class="alphabet-btn">X</button>
+        <button onclick="filterItem('Y')" class="alphabet-btn">Y</button>
+        <button onclick="filterItem('Z')" class="alphabet-btn">Z</button>
       </div>
       <!-- end alphabet buttons -->
       <!--start genre buttons -->
       <div class="genre-buttons">
-        <button class="genre-btn">Action</button>
-        <button class="genre-btn">Adventure</button>
-        <button class="genre-btn">Animation</button>
-        <button class="genre-btn">Children</button>
-        <button class="genre-btn">Concely</button>
-        <button class="genre-btn">Comedy</button>
-        <button class="genre-btn">Crime</button>
-        <button class="genre-btn">Documentary</button>
-        <button class="genre-btn">Family</button>
-        <button class="genre-btn">Fantasy</button>
-        <button class="genre-btn">Food</button>
-        <button class="genre-btn">Home and Garden</button>
-        <button class="genre-btn">Horror</button>
-        <button class="genre-btn">Mini-Series</button>
-        <button class="genre-btn">Mystery</button>
-        <button class="genre-btn">News</button>
-        <button class="genre-btn">Reality</button>
-        <button class="genre-btn">Romance</button>
-        <button class="genre-btn">Sci=Fi</button>
-        <button class="genre-btn">Sport</button>
-        <button class="genre-btn">Talk Show</button>
-        <button class="genre-btn">Thriller</button>
-        <button class="genre-btn">Travel</button>
+        <button onclick="filterGenre('Action')" class="genre-btn">
+          Action
+        </button>
+        <button onclick="filterGenre('Adventure')" class="genre-btn">
+          Adventure
+        </button>
+        <button onclick="filterGenre('Animation')" class="genre-btn">
+          Animation
+        </button>
+        <button onclick="filterGenre('Children')" class="genre-btn">
+          Children
+        </button>
+        <button onclick="filterGenre('Concely')" class="genre-btn">
+          Concely
+        </button>
+        <button onclick="filterGenre('Comedy')" class="genre-btn">
+          Comedy
+        </button>
+        <button onclick="filterGenre('Crime')" class="genre-btn">Crime</button>
+        <button onclick="filterGenre('Documentary')" class="genre-btn">
+          Documentary
+        </button>
+        <button onclick="filterGenre('Family')" class="genre-btn">
+          Family
+        </button>
+        <button onclick="filterGenre('Fantasy')" class="genre-btn">
+          Fantasy
+        </button>
+        <button onclick="filterGenre('Food')" class="genre-btn">Food</button>
+        <button onclick="filterGenre('Home and Garden')" class="genre-btn">
+          Home and Garden
+        </button>
+        <button onclick="filterGenre('Horror')" class="genre-btn">
+          Horror
+        </button>
+        <button onclick="filterGenre('Mini-Series')" class="genre-btn">
+          Mini-Series
+        </button>
+        <button onclick="filterGenre('Mystery')" class="genre-btn">
+          Mystery
+        </button>
+        <button onclick="filterGenre('News')" class="genre-btn">News</button>
+        <button onclick="filterGenre('Reality')" class="genre-btn">
+          Reality
+        </button>
+        <button onclick="filterGenre('Romance')" class="genre-btn">
+          Romance
+        </button>
+        <button onclick="filterGenre('Sci=Fi')" class="genre-btn">
+          Sci=Fi
+        </button>
+        <button onclick="filterGenre('Sport')" class="genre-btn">Sport</button>
+        <button onclick="filterGenre('Talk Show')" class="genre-btn">
+          Talk Show
+        </button>
+        <button onclick="filterGenre('Thriller')" class="genre-btn">
+          Thriller
+        </button>
+        <button onclick="filterGenre('Travel')" class="genre-btn">
+          Travel
+        </button>
       </div>
       <!--end genre buttons -->
     </div>
@@ -129,116 +167,249 @@
       </div>
       <div class="container mt-4">
         <div class="row">
-          <!-- Card 1 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/images-01.jpeg"
-                  class="card-img-top"
-                  alt="Game of Thrones"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">Game of Thrones</h6></a
-                >
-                <p class="card-text">Episodes-84</p>
+          <!-- Card 01 -->
+          <div class="movieShow Action">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/images-01.jpeg"
+                    class="card-img-top"
+                    alt="Game of Thrones"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Game of Thrones</h6></a
+                  >
+                  <p class="card-text">Episodes-84</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Card 2 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/image-02.jpg"
-                  class="card-img-top"
-                  alt="Breaking Bad"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">Breaking Bad</h6></a
-                >
-                <p class="card-text">Episodes-79</p>
+          <!-- Card 02 -->
+          <div class="movieShow Comedy">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/image-02.jpg"
+                    class="card-img-top"
+                    alt="Breaking Bad"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Breaking Bad</h6></a
+                  >
+                  <p class="card-text">Episodes-79</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Card 3 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/image-03.jpg"
-                  class="card-img-top"
-                  alt="Dexter"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">Dexter</h6></a
-                >
-                <p class="card-text">Episodes-125</p>
+          <!-- Card 03 -->
+          <div class="movieShow Thriller">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/image-03.jpg"
+                    class="card-img-top"
+                    alt="Dexter"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"><h6 class="card-title">Dexter</h6></a>
+                  <p class="card-text">Episodes-125</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Card 4 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/images-04.jpg"
-                  class="card-img-top"
-                  alt="Game of Thrones"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">How I Met Your Mother</h6></a
-                >
-                <p class="card-text">Episodes-219</p>
+          <!-- Card 04 -->
+          <div class="movieShow Concely">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/images-04.jpg"
+                    class="card-img-top"
+                    alt="Game of Thrones"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">How I Met Your Mother</h6></a
+                  >
+                  <p class="card-text">Episodes-219</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Card 5 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/images-05.jpg"
-                  class="card-img-top"
-                  alt="Seedha Raaman"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">Seedha Raaman</h6></a
-                >
-                <p class="card-text">Episode-100</p>
+          <!-- Card 05 -->
+          <div class="movieShow Fantasy">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/images-05.jpg"
+                    class="card-img-top"
+                    alt="Seedha Raaman"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Seedha Raaman</h6></a
+                  >
+                  <p class="card-text">Episode-100</p>
+                </div>
               </div>
             </div>
           </div>
-          
-          <!-- Card 6 -->
-          <div class="col-lg-3 col-md-6 mb-2">
-            <div class="card h-100">
-              <a href="detail.html">
-                <img
-                  src="assets/images-06.jpeg"
-                  class="card-img-top"
-                  alt="Geedha Kovindham"
-                />
-              </a>
-              <div class="card-body">
-                <a href="detail.html"
-                  ><h6 class="card-title">Geedha Kovindham</h6></a
-                >
-                <p class="card-text">Episodes-200</p>
+
+          <!-- Card 06 -->
+          <div class="movieShow Crime">
+            <div class="col-lg-3 col-md-6 mb-2" id="">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="assets/images-06.jpeg"
+                    class="card-img-top"
+                    alt="Geedha Kovindham"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Geedha Kovindham</h6></a
+                  >
+                  <p class="card-text">Episodes-200</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 07 -->
+          <div class="movieShow Family">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-07.jpg"
+                    class="card-img-top"
+                    alt="Enkeyum Kadhal"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Enkeyum Kadhal</h6></a
+                  >
+                  <p class="card-text">Episode-110</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 08 -->
+          <div class="movieShow Adventure">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-08.jpeg"
+                    class="card-img-top"
+                    alt="My Girl Friend Is An Alian"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">My Girl Friend Is An Alian</h6></a
+                  >
+                  <p class="card-text">Episodes-180</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 09 -->
+          <div class="movieShow Animation">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-09.jpeg"
+                    class="card-img-top"
+                    alt="Everone Loves Me"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Everone Loves Me</h6></a
+                  >
+                  <p class="card-text">Episode-94</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="movieShow Reality">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-10.jpeg"
+                    class="card-img-top"
+                    alt="You Are My Secret"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">You Are My Secret</h6></a
+                  >
+                  <p class="card-text">Episodes-43</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 11 -->
+          <div class="movieShow Horror">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-11.jpg"
+                    class="card-img-top"
+                    alt="Hidden Love"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">Hidden Love</h6></a
+                  >
+                  <p class="card-text">Episode-110</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="movieShow Romance">
+            <div class="col-lg-3 col-md-6 mb-2">
+              <div class="card h-100">
+                <a href="detail.html">
+                  <img
+                    src="./assets/images-12.jpg"
+                    class="card-img-top"
+                    alt="First Frost"
+                  />
+                </a>
+                <div class="card-body">
+                  <a href="detail.html"
+                    ><h6 class="card-title">First Frost</h6></a
+                  >
+                  <p class="card-text">Episodes-120</p>
+                </div>
               </div>
             </div>
           </div>

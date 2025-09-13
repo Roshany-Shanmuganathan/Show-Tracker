@@ -1,6 +1,5 @@
 body {
   background-color: #e0e3e8;
-  
 }
 
 .navbar .container-fluid {
@@ -51,8 +50,14 @@ footer {
   display: flex; /* enable flex */
   align-items: center; /* vertical center */
   justify-content: center; /* horizontal center */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
   margin: unset;
+}
+.movieShow {
+  display: none;
 }
